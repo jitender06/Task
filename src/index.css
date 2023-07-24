@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* https://meet.google.com/vrp-dqqj-agv?pli=1 */
+
+.app {
+  min-height: 100vh;
+  background-color: #39445a;
+  color: white;
+  /* padding-top: 130px;
+  padding-bottom: 70px; */
+}
