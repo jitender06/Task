@@ -7,8 +7,6 @@ const Select = () => {
     "Utter Pardes": ["Lucknow", "Varanasi", "Saharanpur"],
   };
 
-  const [selectedState, setSelectedState] = useState(null);
-
   return (
     <div>
       <div>
@@ -19,9 +17,7 @@ const Select = () => {
             <option>{state}</option> <br />
             {data[state].map((city) => (
               <option
-                onClick={() =>
-                  alert(`You have selected ${city} in ${selectedState}`)
-                }
+                onClick={() => alert(`You have selected ${city} in ${state}`)}
                 key={city}
               >
                 {city}
